@@ -8,7 +8,7 @@ int n; //Deklarasi variable global n untuk menyimpan elemn pada arry
 void input(){
     int d;
     while (true){
-        cout << "Masukan banyaknya elemn pada arry";
+        cout << "Masukan banyaknya elemn pada arry = ";
         cin >> n;
         if (n <= 20){
             break;
@@ -23,7 +23,7 @@ void input(){
     cout << "====================" <<endl;
 
     for (int i=0;i<n;i++){
-        cout << "Data ke-" << (i+1) << "=";
+        cout << "Data ke-" << (i+1) << " = ";
         cin >> arr[i];
     }
 }
